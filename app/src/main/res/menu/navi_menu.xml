@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item android:title="예약 내역"
+            android:id="@+id/nav_item_1"/>
+        <item android:title="내가 쓴 글보기"
+            android:id="@+id/nav_item_2"/>
+        <item android:title="내가 쓴 댓글 보기"
+            android:id="@+id/nav_item_3"/>
+        <item android:title="포인트 충전"
+            android:id="@+id/nav_item_4"/>
+    </group>
+</menu>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layout_background"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    android:layout_margin="7dp">
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="00시 날씨"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        android:gravity="center"
+        />
+
+    <ImageView
+        android:id="@+id/imgWeather"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/sun"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tvTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="기온"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+
+
+
+
+
+</LinearLayout>
